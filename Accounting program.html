@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hossein jamali</title>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href='https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.css' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="hossein2.css">
+</head>
+
+<body dir="rtl">
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1> این سایت برای پدرم است
+                    برنامه حساب داری
+                    <a href="https://exjamali.com">exjamali.com</a>
+                </h1>
+
+
+                <div>
+
+
+                    <div class="border1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="helpText col-12">
+                <p id="first">کار های خود را داخل ورودی وارد کنید تا به لیست کارها اضافه شود</p>
+                <p id="second">بعد از انجام هر کار روی آن کلیک کنید</p>
+                <p id="third">برای حذف آنها روی "X" کلیک کنید.</p>
+            </div>
+        </div
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="آیتم جدید ..." maxlength="27">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+
+<div>
+            <!-- Empty List -->
+            <div class="row">
+                <div class="listItems col-12">
+                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <a href=""></a>
+    
+        <table class = "calculator" >
+            <tr>
+            <td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+            <!-- clearScreen() function clear all the values -->
+            <td> <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color: #fb0066;" /> </td>
+            </tr>
+            <tr>
+            <!-- display() function display the value of clicked button -->
+            <td> <input class = "button" type = "button" value = "1" onclick = "display('1')" /> </td>
+            <td> <input class = "button" type = "button" value = "2" onclick = "display('2')" /> </td>
+            <td> <input class = "button" type = "button" value = "3" onclick = "display('3')" /> </td>
+            <td> <input class = "button" type = "button" value = "/" onclick = "display('/')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "4" onclick = "display('4')" /> </td>
+            <td> <input class = "button" type = "button" value = "5" onclick = "display('5')" /> </td>
+            <td> <input class = "button" type = "button" value = "6" onclick = "display('6')" /> </td>
+            <td> <input class = "button" type = "button" value = "-" onclick = "display('-')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "7" onclick = "display('7')" /> </td>
+            <td> <input class = "button" type = "button" value = "8" onclick = "display('8')" /> </td>
+            <td> <input class = "button" type = "button" value = "9" onclick = "display('9')" /> </td>
+            <td> <input class = "button" type = "button" value = "+" onclick = "display('+')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "." onclick = "display('.')" /> </td>
+            <td> <input class = "button" type = "button" value = "0" onclick = "display('0')" /> </td>
+            <!-- calculate() function evaluate the mathematical expression -->
+            <td> <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color: #fb0066;" /> </td>
+            <td> <input class = "button" type = "button" value = "*" onclick = "display('*')" /> </td>
+            </tr>
+            </table>
+            <script  src="script.js"></script>
+
+
+</div>
+
+
+ 
+</body>
+
+</html>
